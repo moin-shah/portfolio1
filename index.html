@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Moin Shah, Associate Engineering Head & Yii PHP Expert. Redesigned with custom Bento layouts and top pill navigation.">
+    <meta name="keywords" content="Moin Shah, Associate Engineering Head, SoftwareSuggest, Yii Framework, PHP Developer, Bento Portfolio, Ahmedabad Tech Leader">
+    <meta name="author" content="Moin Shah">
+    
+    <title>Moin Shah | Associate Engineering Head & Yii PHP Leader</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="fav.png" type="image/x-icon">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+
+    <div class="app-container">
+        
+        <!-- Header Pill Navigation (Top Floating) -->
+        <header class="header-nav" id="main-header">
+            <nav class="nav-pill">
+                <div class="nav-brand">
+                    <span>Moin Shah</span>
+                    <div class="brand-dot"></div>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="nav-menu">
+                    <a href="#home" class="nav-item active">Home</a>
+                    <a href="#about" class="nav-item">About</a>
+                    <a href="#skills" class="nav-item">Skills</a>
+                    <a href="#experience" class="nav-item">Experience</a>
+                    <a href="#projects" class="nav-item">Projects</a>
+                    <a href="#education" class="nav-item">Education</a>
+                    <a href="#contact" class="nav-item">Contact</a>
+                </div>
+                
+                <!-- Actions -->
+                <div class="nav-actions">
+                    <!-- Theme Switcher -->
+                    <button class="theme-switch" id="theme-btn" aria-label="Toggle Light/Dark Theme">
+                        <i class="fa-solid fa-moon"></i>
+                        <i class="fa-solid fa-sun"></i>
+                    </button>
+                    
+                    <!-- Hamburger (Visible on Mobile) -->
+                    <button class="mobile-hamburger" id="hamburger-btn" aria-label="Open Mobile Menu">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                </div>
+                
+                <!-- Mobile Navigation Dropdown (Slides down from navbar) -->
+                <div class="mobile-nav-dropdown" id="mobile-menu">
+                    <a href="#home" class="nav-item active">Home</a>
+                    <a href="#about" class="nav-item">About</a>
+                    <a href="#skills" class="nav-item">Skills</a>
+                    <a href="#experience" class="nav-item">Experience</a>
+                    <a href="#projects" class="nav-item">Projects</a>
+                    <a href="#education" class="nav-item">Education</a>
+                    <a href="#contact" class="nav-item">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Content Stream -->
+        <main class="content-stream">
+            
+            <!-- Hero Section -->
+            <section id="home" class="section">
+                <div class="section-container hero-grid section-animate visible">
+                    <div class="hero-text">
+                        <span class="hero-tagline">Welcome to my space</span>
+                        <h1 class="hero-title">I'm <span>Moin Shah</span></h1>
+                        <p class="hero-role">Head of Engineering</p>
+                        <p class="hero-desc">
+                            Strategic technology leader with 10+ years of experience driving engineering excellence, leading high-performing teams, and delivering scalable, secure, and innovative software solutions aligned with business goals.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-accent">
+                                <i class="fa-solid fa-paper-plane"></i> Let's Talk
+                            </a>
+                            <a href="resume.pdf" class="btn btn-flat" target="_blank" rel="noopener">
+                                <i class="fa-solid fa-file-pdf"></i> Download Resume
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="hero-circles">
+                            <div class="hero-circle-1"></div>
+                            <div class="hero-circle-2"></div>
+                        </div>
+                        <div class="hero-glow-card">
+                            <img src="1.jpeg" alt="Moin Shah" class="hero-avatar">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section (Bento Grid) -->
+            <section id="about" class="section">
+                <div class="section-container section-animate" id="about-section">
+                    <div class="section-header-wrap">
+                        <span class="section-tag">Overview</span>
+                        <h2>About Me</h2>
+                    </div>
+                    
+                    <!-- Asymmetric Bento Grid -->
+                    <div class="bento-grid about-bento">
+                        
+                        <!-- Cell 1: Bio Narrative (2x1 Span) -->
+                        <div class="bento-card bento-bio">
+                            <h3>Driving Technical Excellence</h3>
+                            <p>
+                               Head of Engineering with 10+ years of experience leading engineering teams, driving technology strategy, and delivering scalable, high-performance software solutions. Proven expertise in software architecture, Yii PHP, MySQL, Redis, cloud infrastructure, and system optimization. Skilled in building and mentoring high-performing teams, modernizing legacy systems, establishing engineering best practices, and aligning technology initiatives with business objectives to drive innovation, operational excellence, and sustainable growth.
+                            </p>
+                        </div>
+                        
+                        <!-- Cell 2: Stat - Years -->
+                        <div class="bento-card bento-stat-years">
+                            <div class="stat-val-wrap">
+                                <i class="fa-solid fa-calendar-check stat-icon"></i>
+                                <span class="stat-label">Experience</span>
+                            </div>
+                            <span class="stat-number" data-target="10">0</span>
+                        </div>
+
+                        <!-- Cell 3: Stat - Products -->
+                        <div class="bento-card bento-stat-products">
+                            <div class="stat-val-wrap">
+                                <i class="fa-solid fa-cubes stat-icon"></i>
+                                <span class="stat-label">Products</span>
+                            </div>
+                            <span class="stat-number" data-target="7">0</span>
+                        </div>
+                        
+                        <!-- Cell 4: Stat - Team size -->
+                        <div class="bento-card bento-stat-team">
+                            <div class="stat-val-wrap">
+                                <i class="fa-solid fa-users-gear stat-icon"></i>
+                                <span class="stat-label">Team Led</span>
+                            </div>
+                            <span class="stat-number" data-target="12">0</span>
+                        </div>
+
+                        <!-- Cell 5: Location Map Box -->
+                        <div class="bento-card bento-location">
+                            <div class="location-marker">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span class="location-city">Ahmedabad, IN</span>
+                            </div>
+                            <div class="location-time-wrap">
+                                <span class="location-time-label">Local Time</span>
+                                <div class="location-time-val" id="time-display">--:-- --</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <div class="section-container section-animate" id="skills-section">
+                    <div class="section-header-wrap">
+                        <span class="section-tag">Proficiencies</span>
+                        <h2>My Skills</h2>
+                    </div>
+                    <div class="skills-grid">
+                        
+                        <!-- Technical Skills -->
+                        <div class="skill-category-box">
+                            <h3><i class="fa-solid fa-terminal"></i> Technical Stack</h3>
+                            <div class="skill-list-wrap">
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">PHP</span>
+                                        <span class="skill-row-percent">99.9%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="99.9"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">Yii Framework</span>
+                                        <span class="skill-row-percent">99.9%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="99.9"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">MySQL</span>
+                                        <span class="skill-row-percent">99.9%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="99.9"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">JavaScript / jQuery</span>
+                                        <span class="skill-row-percent">99.9%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="99.9"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">Redis Caching</span>
+                                        <span class="skill-row-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">API Integrations</span>
+                                        <span class="skill-row-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="95"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tools & Platforms -->
+                        <div class="skill-category-box">
+                            <h3><i class="fa-solid fa-sliders"></i> Tools & Platforms</h3>
+                            <div class="skill-list-wrap">
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">VPN Systems</span>
+                                        <span class="skill-row-percent">99.9%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="99.9"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">Jira / Agile Tracking</span>
+                                        <span class="skill-row-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">Cloud Servers</span>
+                                        <span class="skill-row-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">Generative AI Tools</span>
+                                        <span class="skill-row-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="95"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Languages -->
+                        <div class="skill-category-box">
+                            <h3><i class="fa-solid fa-earth-americas"></i> Languages</h3>
+                            <div class="skill-list-wrap">
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">Gujarati</span>
+                                        <span class="skill-row-percent">100%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="100"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">Hindi</span>
+                                        <span class="skill-row-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-row">
+                                    <div class="skill-row-info">
+                                        <span class="skill-row-title">English</span>
+                                        <span class="skill-row-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar-track">
+                                        <div class="skill-bar-fill" data-width="90"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <div class="section-container section-animate">
+                    <div class="section-header-wrap">
+                        <span class="section-tag">Career History</span>
+                        <h2>Work Experience</h2>
+                    </div>
+                    <div class="experience-grid-flow">
+                        
+                        <!-- Row 1 -->
+                        <div class="exp-row-card">
+                            <div class="exp-year-badge-wrap">
+                                <span class="exp-year-badge">2025</span>
+                                <span class="exp-duration">Present</span>
+                            </div>
+                            <div class="exp-content-box">
+                                <div class="exp-card-header">
+                                    <div class="exp-title-info">
+                                        <h3>Head of Engineering</h3>
+                                        <span class="exp-company">SoftwareSuggest</span>
+                                    </div>
+                                </div>
+                                <p class="exp-desc">
+                                    Leading engineering strategy, technology innovation, and organizational growth while ensuring scalable, secure, and high-performing software solutions across the business.
+                                </p>
+                                <ul class="exp-details-list">
+                                    <li>Drive the engineering vision, technology roadmap, and architectural decisions aligned with business objectives and long-term product strategy.</li>
+                                    <li>Lead and mentor cross-functional engineering teams, fostering a culture of technical excellence, ownership, collaboration, and continuous improvement.</li>
+                                    <li>Establish engineering best practices, governance frameworks, and quality standards for software development, security, performance, and scalability.</li>
+                                    <li>Collaborate with product, project management, and business stakeholders to deliver strategic initiatives and accelerate product innovation.</li>
+                                    <li>Oversee infrastructure reliability, cloud architecture, and platform modernization initiatives to ensure high availability, security, and operational efficiency.</li>
+                                    <li>Drive engineering process optimization, resource planning, and technical risk management to support organizational growth and business expansion.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Row 1 -->
+                        <div class="exp-row-card">
+                            <div class="exp-year-badge-wrap">
+                                <span class="exp-year-badge">2024</span>
+                                <span class="exp-duration">2025 (1 Yr)</span>
+                            </div>
+                            <div class="exp-content-box">
+                                <div class="exp-card-header">
+                                    <div class="exp-title-info">
+                                        <h3>Associate Engineering Head</h3>
+                                        <span class="exp-company">SoftwareSuggest</span>
+                                    </div>
+                                </div>
+                                <p class="exp-desc">
+                                    Overseeing end-to-end software development lifecycle, system architectures, and team coordination.
+                                </p>
+                                <ul class="exp-details-list">
+                                    <li>Architected and implemented high-availability load balancing across two independent cloud servers, achieving 99.9% system uptime for CRM operations.</li>
+                                    <li>Directing senior developer teams to implement secure, robust, and cleanly structured Yii-based features.</li>
+                                    <li>Established technical standards for code refactoring, database design, and caching layers.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="exp-row-card">
+                            <div class="exp-year-badge-wrap">
+                                <span class="exp-year-badge">2021</span>
+                                <span class="exp-duration">2024 (3 Yrs)</span>
+                            </div>
+                            <div class="exp-content-box">
+                                <div class="exp-card-header">
+                                    <div class="exp-title-info">
+                                        <h3>Senior Team Leader</h3>
+                                        <span class="exp-company">SoftwareSuggest</span>
+                                    </div>
+                                </div>
+                                <p class="exp-desc">
+                                    Coordinated cross-functional teams including developers, QA specialists, and product managers to guarantee timely system delivery.
+                                </p>
+                                <ul class="exp-details-list">
+                                    <li>Guided a team of 5 developers, 4 QA professionals, and 2 project managers to execute high-impact features.</li>
+                                    <li>Leveraged deep Redis caching expertise to optimize heavy database query paths, accelerating application load speeds by 35%.</li>
+                                    <li>Introduced Jira for modern scrum/agile operations, stream-lining tracking and reducing average bug resolution times.</li>
+                                    <li>Successfully instituted release-based delivery workflows, reducing product shipment delays.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Row 3 -->
+                        <div class="exp-row-card">
+                            <div class="exp-year-badge-wrap">
+                                <span class="exp-year-badge">2020</span>
+                                <span class="exp-duration">2021 (1 Yr)</span>
+                            </div>
+                            <div class="exp-content-box">
+                                <div class="exp-card-header">
+                                    <div class="exp-title-info">
+                                        <h3>Team Lead</h3>
+                                        <span class="exp-company">SoftwareSuggest</span>
+                                    </div>
+                                </div>
+                                <p class="exp-desc">
+                                    Managed features, development tasks, and code quality for the central CRM project.
+                                </p>
+                                <ul class="exp-details-list">
+                                    <li>Managed a team of 2 developers and 2 QA engineers to scale CRM products.</li>
+                                    <li>Integrated Google APIs for contact syncing, calendar events, and real-time email triggers.</li>
+                                    <li>Engineered custom integrated calling workflows (VOIP/Click-to-call) inside the CRM dashboard.</li>
+                                    <li>Conducted strict peer reviews to maintain high codebase standards.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Row 4 -->
+                        <div class="exp-row-card">
+                            <div class="exp-year-badge-wrap">
+                                <span class="exp-year-badge">2018</span>
+                                <span class="exp-duration">2020 (2 Yrs)</span>
+                            </div>
+                            <div class="exp-content-box">
+                                <div class="exp-card-header">
+                                    <div class="exp-title-info">
+                                        <h3>Senior Software Engineer</h3>
+                                        <span class="exp-company">SoftwareSuggest</span>
+                                    </div>
+                                </div>
+                                <p class="exp-desc">
+                                    Focused on stability, scalability, and code optimization within the core Yii-based application.
+                                </p>
+                                <ul class="exp-details-list">
+                                    <li>Optimized database schemas, indexing strategies, and raw query paths to decrease server load.</li>
+                                    <li>Refactored complex, legacy modules of the core Yii CRM application into decoupled, modern services.</li>
+                                    <li>Championed PHP best practices and modern security structures (XSS, CSRF protection).</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Row 5 -->
+                        <div class="exp-row-card">
+                            <div class="exp-year-badge-wrap">
+                                <span class="exp-year-badge">2016</span>
+                                <span class="exp-duration">2018 (2 Yrs)</span>
+                            </div>
+                            <div class="exp-content-box">
+                                <div class="exp-card-header">
+                                    <div class="exp-title-info">
+                                        <h3>Software Developer</h3>
+                                        <span class="exp-company">Sphere Rays Techno labs</span>
+                                    </div>
+                                </div>
+                                <p class="exp-desc">
+                                    Began core career specializing in Yii PHP and web database applications.
+                                </p>
+                                <ul class="exp-details-list">
+                                    <li>Acquired advanced expertise in the Yii PHP framework, MVC structure, and MySQL relational modeling.</li>
+                                    <li>Built custom internal tools, administrative portals, and client web dashboards.</li>
+                                    <li>Contributed to the development and maintenance of SaaS offerings.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="section-container section-animate">
+                    <div class="section-header-wrap">
+                        <span class="section-tag">Case Studies</span>
+                        <h2>Featured Projects</h2>
+                    </div>
+                    <div class="projects-showcase">
+                        
+                        <!-- Project card 1 -->
+                        <div class="project-card-new">
+                            <div class="project-head-wrap">
+                                <span class="project-tag-cat">System Architecture</span>
+                                <div class="project-icon-box"><i class="fa-solid fa-network-wired"></i></div>
+                            </div>
+                            <h3>Server Load Balancing</h3>
+                            <p>
+                                Designed and implemented a high-performance server load balancing system utilizing cloud-based load balancers and dual servers to distribute traffic, ensuring CRM system redundancy and seamless scalability.
+                            </p>
+                            <div class="project-footer-wrap">
+                                <div class="project-chips">
+                                    <span class="project-chip">Yii PHP</span>
+                                    <span class="project-chip">Nginx</span>
+                                    <span class="project-chip">Cloud LB</span>
+                                </div>
+                                <span class="project-badge-link"><i class="fa-solid fa-check-double"></i> Fully Deployed</span>
+                            </div>
+                        </div>
+
+                        <!-- Project card 2 -->
+                        <div class="project-card-new">
+                            <div class="project-head-wrap">
+                                <span class="project-tag-cat">Data Caching</span>
+                                <div class="project-icon-box"><i class="fa-solid fa-bolt-lightning"></i></div>
+                            </div>
+                            <h3>Redis Scale Caching</h3>
+                            <p>
+                                Built an advanced server-side caching structure using Redis for session variables and MySQL database query results. Reduced database lookup latencies and server load by 35% during peak hours.
+                            </p>
+                            <div class="project-footer-wrap">
+                                <div class="project-chips">
+                                    <span class="project-chip">Redis</span>
+                                    <span class="project-chip">Yii PHP</span>
+                                    <span class="project-chip">MySQL</span>
+                                </div>
+                                <span class="project-badge-link"><i class="fa-solid fa-arrow-trend-up"></i> 35% Speedup</span>
+                            </div>
+                        </div>
+
+                        <!-- Project card 3 -->
+                        <div class="project-card-new">
+                            <div class="project-head-wrap">
+                                <span class="project-tag-cat">CRM Integration</span>
+                                <div class="project-icon-box"><i class="fa-solid fa-circle-nodes"></i></div>
+                            </div>
+                            <h3>CRM Call Flow & APIs</h3>
+                            <p>
+                                Engineered third-party dashboard integrations with Google APIs (Calendar, Contacts, Mail) and added unified click-to-call VOIP widgets directly within custom CRM workspaces.
+                            </p>
+                            <div class="project-footer-wrap">
+                                <div class="project-chips">
+                                    <span class="project-chip">Google APIs</span>
+                                    <span class="project-chip">Webhooks</span>
+                                    <span class="project-chip">VOIP Widgets</span>
+                                </div>
+                                <span class="project-badge-link"><i class="fa-solid fa-square-rss"></i> API Active</span>
+                            </div>
+                        </div>
+
+                        <!-- Project card 4 -->
+                        <div class="project-card-new">
+                            <div class="project-head-wrap">
+                                <span class="project-tag-cat">DevOps & QA</span>
+                                <div class="project-icon-box"><i class="fa-solid fa-code-fork"></i></div>
+                            </div>
+                            <h3>Jira Release Pipelines</h3>
+                            <p>
+                                Developed automated pipeline utilities using webhooks and custom scripting to sync release builds, QA validation, and Jira ticket updates, lowering deployment coordination overhead.
+                            </p>
+                            <div class="project-footer-wrap">
+                                <div class="project-chips">
+                                    <span class="project-chip">Jira API</span>
+                                    <span class="project-chip">Shell Script</span>
+                                    <span class="project-chip">Git Flow</span>
+                                </div>
+                                <span class="project-badge-link"><i class="fa-solid fa-circle-check"></i> Automated</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section">
+                <div class="section-container section-animate">
+                    <div class="section-header-wrap">
+                        <span class="section-tag">Qualifications</span>
+                        <h2>Education History</h2>
+                    </div>
+                    <div class="education-grid-modern">
+                        
+                        <div class="edu-card-modern">
+                            <div class="edu-icon-circle"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="edu-content-wrap">
+                                <h3>Master of Computer Applications</h3>
+                                <p class="edu-institute">Saurashtra University, Rajkot</p>
+                                <div class="edu-badges-row">
+                                    <span class="edu-badge edu-badge-yr">2013 - 2016</span>
+                                    <span class="edu-badge edu-badge-gr">Grade: 62.65%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="edu-card-modern">
+                            <div class="edu-icon-circle"><i class="fa-solid fa-building-columns"></i></div>
+                            <div class="edu-content-wrap">
+                                <h3>Bachelor of Science (IT)</h3>
+                                <p class="edu-institute">KBSHAH SCIENCE College, Surendranagar</p>
+                                <div class="edu-badges-row">
+                                    <span class="edu-badge edu-badge-yr">2010 - 2013</span>
+                                    <span class="edu-badge edu-badge-gr">Grade: 66.53%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section-container section-animate" id="contact-section">
+                    <div class="section-header-wrap">
+                        <span class="section-tag">Get In Touch</span>
+                        <h2>Let's Create Together</h2>
+                    </div>
+                    <div class="contact-split-wrap">
+                        
+                        <!-- Contact info list -->
+                        <div class="contact-meta-list">
+                            <div class="contact-details-item">
+                                <div class="contact-detail-icon"><i class="fa-solid fa-paper-plane"></i></div>
+                                <div class="contact-detail-text">
+                                    <h4>Email Address</h4>
+                                    <p><a href="mailto:moinshah2311@gmail.com">moinshah2311@gmail.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-details-item">
+                                <div class="contact-detail-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                                <div class="contact-detail-text">
+                                    <h4>Call Me Direct</h4>
+                                    <p><a href="tel:8511230230">+91 85112 30230</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-details-item">
+                                <div class="contact-detail-icon"><i class="fa-solid fa-earth-asia"></i></div>
+                                <div class="contact-detail-text">
+                                    <h4>Current Base</h4>
+                                    <p>Ahmedabad, Gujarat, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Form underline card -->
+                        <div class="contact-form-card">
+                            <form id="portfolio-form">
+                                <div class="form-field-wrap">
+                                    <label for="name-input">Full Name</label>
+                                    <input type="text" id="name-input" class="input-underline" placeholder="e.g. Jane Doe" required>
+                                </div>
+                                <div class="form-field-wrap">
+                                    <label for="email-input">Email Address</label>
+                                    <input type="email" id="email-input" class="input-underline" placeholder="e.g. jane@example.com" required>
+                                </div>
+                                <div class="form-field-wrap">
+                                    <label for="subject-input">Message Subject</label>
+                                    <input type="text" id="subject-input" class="input-underline" placeholder="What are we discussing?" required>
+                                </div>
+                                <div class="form-field-wrap">
+                                    <label for="msg-input">Message Details</label>
+                                    <textarea id="msg-input" class="textarea-underline" placeholder="Write details here..." required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-accent form-submit-button" style="width: 100%;">
+                                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                                </button>
+                                
+                                <div class="form-feedback-alert" id="form-msg-alert"></div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Redesigned Footer -->
+            <footer class="footer-wrap-new">
+                <div class="footer-inner">
+                    <div class="footer-logo">
+                        <span>Moin Shah</span>
+                        <div class="brand-dot"></div>
+                    </div>
+                    <div class="footer-copy">&copy; 2026 Moin Shah. Redesigned Bento Space. All rights reserved.</div>
+                    <div class="footer-social-row">
+                        <a href="https://www.linkedin.com/in/moin-shah-b01822100/" class="footer-social-btn" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/moin_roxx/" class="footer-social-btn" target="_blank" rel="noopener" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+    <!-- Redesigned Interaction JS -->
+    <script src="script.js"></script>
+</body>
+</html>
